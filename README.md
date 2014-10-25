@@ -1,11 +1,6 @@
-silentor
+袂卓团队博客
 ========
->Be a silentor,just focus on marking your words down!
-
-开发缘由
-===
-第一次使用fritx同学的[silent](https://github.com/fritx/silent) 失败了，于是决定重复造下轮子
-所以，silentor是受silent的启发，代码简单容读。
+基于[Silentor](https://github.com/Meizhuo/silentor)的实现的博客
 
 Features
 ===
