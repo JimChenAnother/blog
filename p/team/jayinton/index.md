@@ -1,4 +1,5 @@
-### Hi 我是杰英！
+### Jayin Ton 
+>Life is short ,I write PHP.
 
 - [ThinkPHP笔记-模板替换](thinkphp/模板替换.md)
 - [开发日志](dev/index.md)
