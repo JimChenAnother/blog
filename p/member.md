@@ -11,6 +11,7 @@
 
 **Android Team**
 * [唐杰英](team/jayinton/index.md)
+* [李志雄](team/jasonlee/index.md)
 
 **Design Team**
 - [邹妍](team/zouyan/index.md)
