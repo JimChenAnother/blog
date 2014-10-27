@@ -2,7 +2,7 @@
 
 # [袂卓工作室](.)
 
-> 北主楼1608
+> 联袂追求卓越
 
 - [项目](projects/index.md)
 - [专业](profession.md)
