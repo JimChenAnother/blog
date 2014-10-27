@@ -7,6 +7,9 @@
 **在这之前，我假设你会使用Git来进行更新和上传代码**
 每次修改提交常用快捷命令
 ```shell
+//第一次下载袂卓博客
+git clone https://github.com/Meizhuo/blog.git
+
 //添加到本地库
 git add --all
 git commit -m '这是提交内容'
