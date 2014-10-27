@@ -59,7 +59,9 @@
 
 把路径修改好之后就可以构建成功.基本上路径没啥问题，扩展的包都下载好OK了。小编作为一名英语渣渣跟菜鸟，去stackoverflow找了好久的答案，说多了都是内啊。
 
-<img src="gradle_suc.jpg" alt="gradle_suc" width="600">
+
+![gradle_suc](./img/Gradle/gradle_suc.jpg)
+
 
 
 
