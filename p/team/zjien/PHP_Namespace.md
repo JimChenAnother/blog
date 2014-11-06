@@ -2,7 +2,7 @@
 *原文地址*：[http://www.cnblogs.com/TechZi/archive/2011/11/01/2231580.html](http://www.cnblogs.com/TechZi/archive/2011/11/01/2231580.html)
 [PHP_Namespace](PHP_Namespace.md)
 
-首先了解一些PHP术语
+##首先了解一些PHP术语##
 ####完全限定名####
 任何PHP代码都具有完全限定名——一个以反斜线起始的标识符。例如：\App\Lib1\MYCONST, \App\Lib2\MyFunction()。
 完全限定名不会产生任何歧义。首个反斜线与文件系统路径类似，都指明了“根”全局空间。如果在全局空间内实现了一个MyFunction()函数，可在lib1.php和lib2.php中使用“\MyFunction()”对其进行调用。
