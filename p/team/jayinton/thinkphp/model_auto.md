@@ -42,9 +42,15 @@ class XxxModel extends Model{
 
 但是，如果维护的人忘记这么过滤这个字段，那么坑爹了，而且这些代码只写在一个函数里，也就是写在业务层，能不能像自动完成/自动验证那样定义更酷炫，更清晰明了容易维护？
 
-这里不得不提出一个ThinkPHP的高级模型了
-方法如下：
+这里不得不提出一个ThinkPHP的高级模型--AdvModel 中提供的`只读字段`
+
 ```
-//定义只读字段(不允许被更改，save之前过滤一些字段)
-protected $readonlyField = array('uid', 'c_id');
+//继承高级模型
+class FooModel extends AdvModel{
+    //定义只读字段(不允许被更改，save之前过滤一些字段)
+    protected $readonlyField = array('uid', 'c_id');
+}
+
 ```
+
+这样，save()之前会自动过滤到只读字段的值，避免更新到数据库
