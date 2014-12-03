@@ -39,3 +39,20 @@ ThinkPHP Tips
 ```
 
 那么懂了，如果Controller中没有调用`$this->display()`，访问`~/module/controller/new_design`就会自动显示对应控制器下模板`new_design.html`(ps：我的模板后缀是html)
+
+
+12.3 update:
+
+貌似昨日，按照上面的做法，还是无法调用默认的模板，那么。请你检查你是否在Controller中复写了写_empty()。
+如果是的话，补刀：
+```php
+public function _empty(){
+    if(file_exists_case($this->view->parseTemplate())){
+        // 检查是否存在默认模版 如果有直接输出模版
+        $this->display();
+    }else{
+      // your logic code
+    }
+}
+
+```
