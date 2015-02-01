@@ -1,4 +1,4 @@
-﻿![Meizhuo logo](./img/favicon.ico)
+﻿![Meizhuo logo](__IMG__/favicon.ico)
 
 # [袂卓工作室](.)
 

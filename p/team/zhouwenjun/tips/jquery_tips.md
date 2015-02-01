@@ -1,6 +1,6 @@
 #JQuery 的小Tips#
 
-![jquery](./img/wenjun/jquery.jpg)
+![jquery](__IMG__/wenjun/jquery.jpg)
 - ###禁止右键点击###
 ####如果你想为用户节省网站信息，那么开发者可以使用这段代码——禁用右键单击功能。####
 

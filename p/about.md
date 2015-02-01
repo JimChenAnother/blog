@@ -1,6 +1,6 @@
 关于袂卓
 ===
-![Meizhuo logo](./img/favicon.ico)
+![Meizhuo logo](__IMG__/favicon.ico)
 
 >"联袂追求卓越，创新设计未来"
 

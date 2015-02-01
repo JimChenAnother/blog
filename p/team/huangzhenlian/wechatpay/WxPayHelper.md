@@ -75,7 +75,7 @@ return true;
 
 **②：生成订单参数**
 
-![图片名](./img/zhlhuang/11.jpg)
+![图片名](__IMG__/zhlhuang/11.jpg)
 
 ```php
 protected function get_cft_package(){

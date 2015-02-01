@@ -19,11 +19,11 @@
 
 -  路径：基本就是解压下来的目录，然后在环境变量里面新建一个gradle_home即可。我的gradle路径是：
 
-![路径](./img/Gradle/gradle_dir.jpg)
+![路径](__IMG__/Gradle/gradle_dir.jpg)
 
-![环境](./img/Gradle/gradle_environment.png)   
+![环境](__IMG__/Gradle/gradle_environment.png)   
 
-![路径2](./img/Gradle/gradlepath.jpg)     
+![路径2](__IMG__/Gradle/gradlepath.jpg)     
     
 - 路径的配置跟java很类似，有问题的童鞋可以去gradle官网自行查看或者google(新知识google，旧知识百度)    
 
@@ -38,9 +38,9 @@
 
 这是我的android_home路径:
 
-![myandroid_home](./img/Gradle/myandroid_home.jpg)
+![myandroid_home](__IMG__/Gradle/myandroid_home.jpg)
 
-![myandroid_path](./img/Gradle/myandroid_path.jpg)
+![myandroid_path](__IMG__/Gradle/myandroid_path.jpg)
 
 
 - 坑在第一幅图，对比一下百度经验的图跟我的图就知道坑在哪里了。
@@ -52,7 +52,7 @@
 
 
 
-![gradle_failed](./img/Gradle/gradle_failed.png)
+![gradle_failed](__IMG__/Gradle/gradle_failed.png)
 
 
 妈的，gradle构建第一次就跪了，至于你要在哪里构建这些就不详细讲了.
@@ -60,7 +60,7 @@
 把路径修改好之后就可以构建成功.基本上路径没啥问题，扩展的包都下载好OK了。小编作为一名英语渣渣跟菜鸟，去stackoverflow找了好久的答案，说多了都是内啊。
 
 
-![gradle_suc](./img/Gradle/gradle_suc.jpg)
+![gradle_suc](__IMG__/Gradle/gradle_suc.jpg)
 
 
 
@@ -68,9 +68,9 @@
 
 ### 还没成功
 
-![androidstdio1](./img/Gradle/androidstdio1.jpg)
+![androidstdio1](__IMG__/Gradle/androidstdio1.jpg)
 
-![gradle_failed2](./img/Gradle/gradle_failed2.png)
+![gradle_failed2](__IMG__/Gradle/gradle_failed2.png)
 
 
 我摔！妈的，构建成功还不给我编译运行，androidstdio的按钮也是灰色的。然后小编又去gradle官网撸了一个1.12版本的gradle重新把路径给配了，才能成功运行。因为原本的我原本的gradle版本是1.8.
@@ -79,13 +79,13 @@
 
 - 当然你可以在gradle-wrapper.properties里面修改版本，酱紫的话，同步的时候，gradle就会自己去下载相应的版本，附图：
 
-![gradle_wrap](./img/Gradle/gradle_wrap.png)
+![gradle_wrap](__IMG__/Gradle/gradle_wrap.png)
 
-![gradleversion11](./img/Gradle/gradleversion11.jpg)
+![gradleversion11](__IMG__/Gradle/gradleversion11.jpg)
 
 - 又或者你可以修改build.gradle的版本,需要修改的是gradleVersion那一项以及依赖里面的classpath.然后进行同步，但是这个方法有时候同步不鸟，还是不太建议使用。还是附图吧：
 
-![gradle_version](./img/Gradle/gradle_version.jpg)
+![gradle_version](__IMG__/Gradle/gradle_version.jpg)
 
 
 
@@ -94,14 +94,14 @@
 
 ## 成功运行
 
-![finish](./img/Gradle/gradle_version.jpg)
+![finish](__IMG__/Gradle/gradle_version.jpg)
 
 
 FINISHED 见到了有木有
 
 来一张效果图
 
-![OK](./img/Gradle/OK.jpg)
+![OK](__IMG__/Gradle/OK.jpg)
 
 有任何问题可以联系我：
 

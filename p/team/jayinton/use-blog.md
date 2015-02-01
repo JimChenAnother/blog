@@ -87,12 +87,12 @@ Part II Markdown语法
 在我们的袂卓博客系统中，图片均放在blog/img/目录下(例如有一张bg.jpg在img/目录下)
 那么应该这么写
 ```
-![图片名](./img/jpg)
+![图片名](__IMG__/jpg)
 ```
 
 如果我的图片bg.jpg放在`img/`的子目录`img/mypic/`咋办？那也容易
 ```
-![图片名](./img/mypic/bg.jpg)
+![图片名](__IMG__/mypic/bg.jpg)
 ```
 
 

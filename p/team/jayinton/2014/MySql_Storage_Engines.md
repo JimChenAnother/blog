@@ -11,7 +11,7 @@ MySQL 存储引擎对比
 按我个人的理解就是，存储引擎就是一层驱动，介乎于上层的接口与底层的存储文件之间。什么？有点抽象？
 不妨拿常见的Java的MVC架构来说明下他们的关系
 
-![MVC](./img/jayinton/java_mvc.png)
+![MVC](__IMG__/jayinton/java_mvc.png)
 
 神马？还不懂?来个更通俗易懂的比喻，那就是电脑上的内存条:主板就按照一定标准，制定了内存条的接口规范，至于不同牌子的内存的性能，频率是如何，这就看内存条制造厂商的实现了。所以，这些厂商，可以比喻成众多的存储引擎，对规范的接口的一种实现。说白了就是如何存储数据、如何为存储的数据建立索引和如何更新、查询数据等技术的实现方法。
 
@@ -61,7 +61,7 @@ PS: MySQL 5.5默认的存贮引擎是`InnoDB`
 * 其他呢？ 自行百度，google,目前比较普及的存储引擎是MyISAM和InnoDB
 
 来张图比较下(主要看MyISAM & InnoDB)
-![存储引擎对比](./img/jayinton/mysql_storage _engine_compare.jpeg)
+![存储引擎对比](__IMG__/jayinton/mysql_storage _engine_compare.jpeg)
 
 
 ### 那么掉坑了吗？
